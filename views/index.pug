@@ -1,0 +1,10 @@
+html
+  head
+    title=title
+    style
+        include ../css/index.css
+  body
+    each item in pageList
+        .list 
+            img(src=item)
+    include include/footer.pug
